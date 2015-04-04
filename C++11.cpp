@@ -17,7 +17,10 @@ int main(){
   const int enemy  = 2;
   CreateObj(player);
 
-  // 整数へ勝手に変換されない
+
+  // スコープで指定しないとエラー
   CreateObj(Player);     // error
+
+  // 整数へ勝手に変換されない
   CreateObj(HP::Player); // error
 }
