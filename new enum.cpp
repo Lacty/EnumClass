@@ -10,6 +10,13 @@ enum class Team {
   BLUE
 };
 
+// Õ“Ë‚ª‹N‚«‚È‚¢
+enum class Color {
+  RED,
+  BLUE,
+  GREEN,
+};
+
 // Œ^w’è
 enum class Button : char {
   UP    = 'W',
